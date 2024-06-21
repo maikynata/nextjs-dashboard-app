@@ -1,4 +1,4 @@
-## Main stacks:
+## Main stacks used in this Project:
 - Next.js
 - Typescript
 - Tailwind
