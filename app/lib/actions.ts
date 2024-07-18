@@ -75,6 +75,7 @@ export async function createInvoice(formData: FormData) {
 
     try {
       await sql`DELETE FROM invoices WHERE id = ${id}`;  
+      return { message: 'Deleted Invoice.' };
     } catch (error) {
       return {
         message: 'Database Error: Failed to Delete Invoice.'
